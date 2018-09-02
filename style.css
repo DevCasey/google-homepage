@@ -1,25 +1,50 @@
-img {
+.google {
     height: 92;
+    width: 272px;
+    size: 92px;
     padding-top: 190px;
-    margin-left: 464px;
+    display: block;
 }
 
 
 
 #textbox {
-    text-align: left;
     border: .5px solid;
-    border-radius: 2px;
+    border-radius: 1px;
     box-shadow: 0 3px 3px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
     border-color: #eee #eee #ccc #eee;
     height: 42px;
-    width: 483px;
+    width: 590px;
     margin-top: 23px;
-    margin-left: 364px;
     background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/200px-Google_mic.svg.png");
     background-repeat: no-repeat;
     background-size: 14px;
-    background-position-x: 448px;
-    background-position-y: center;
+    background-position-x: 98%;
+    background-position-y: 50%;
+    vertical-align: middle;
 }
+
+
+.search input {
+    background-color: white;
+    border: 1px solid #eee;
+    box-shadow: 0.5px 2px 2px 0.5px rgba(0,0,0,0.2);
+    font-size: 16px;
+    height: 40px;
+    padding-left: 15px;
+    width: 450px;
+}
+
+.button button {
+    display: inline-block;
+    border: 1px solid;
+    height: 36px;
+    width: 10%;
+    text-align: center;
+    background-color: #f2f2f2;
+    color: #757575;
+    font-size: 13px;
+    font-weight: bold;
+}
+
 
