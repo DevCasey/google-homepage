@@ -3,3 +3,23 @@ img {
     padding-top: 190px;
     margin-left: 464px;
 }
+
+
+
+#textbox {
+    text-align: left;
+    border: .5px solid;
+    border-radius: 2px;
+    box-shadow: 0 3px 3px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+    border-color: #eee #eee #ccc #eee;
+    height: 42px;
+    width: 483px;
+    margin-top: 23px;
+    margin-left: 364px;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/200px-Google_mic.svg.png");
+    background-repeat: no-repeat;
+    background-size: 14px;
+    background-position-x: 448px;
+    background-position-y: center;
+}
+
